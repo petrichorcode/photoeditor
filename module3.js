@@ -83,6 +83,29 @@ class ImageUtils {
 
 }
 
+class ImageModel {
+    constructor(heightValue, widthValue, pixelGridValue) {
+        this.height = heightValue;
+        this.width = widthValue;
+        this.pixelGrid = pixelGridValue;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
